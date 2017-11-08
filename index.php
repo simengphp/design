@@ -6,6 +6,4 @@ require 'lib\Start.php';
 lib\code\Start::start();
 
 
-
-app\controller\home\Index::test();
-lib\code\Object::test();
+lib\code\Register::get("db1");

@@ -9,7 +9,11 @@
 namespace lib\code;
 class Object
 {
-    static function test(){
-        echo "2";
+    public $arr = array();
+    public function __set($key,$value){
+        $this->arr[$key] = $value;
+    }
+    public function __get($key){
+        return $this->arr[$key];
     }
 }

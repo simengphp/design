@@ -15,7 +15,6 @@ class Loader
     }
 
     public static function autoload($class){
-        var_dump($class);
         require PATH.'/'.str_replace('\\','/',$class).'.php';
     }
 }
