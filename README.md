@@ -20,13 +20,22 @@ introduce by simengphp :
 适用场景：数据库类文件
 
 二、工厂模式：  Factory.php
-注册树模式：Register.php
-适配器模式：Match.php
-策略模式：  Tactics.php
-观察者模式：Observe.php
-原型模式：  Prototype.php
-装饰模式：  Adorn.php
-迭代器模式：Iterator.php
-代理模式：  Agency.php
+
+三、注册树模式：Register.php
+
+四、适配器模式：Match.php
+
+五、策略模式：  Tactics.php
+
+六、观察者模式：Observe.php
+
+七、原型模式：  Prototype.php
+
+八、装饰模式：  Adorn.php
+
+九、迭代器模式：Iterator.php
+
+十、代理模式：  Agency.php
+
 
 
