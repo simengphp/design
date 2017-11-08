@@ -1,6 +1,8 @@
 # design
 PHP的几种设计模式
+
 测试文件：  index.php
+
 一、单例模式：  instance.php
 introduce by simengphp :
 特点：1）包含一个静态的变量
