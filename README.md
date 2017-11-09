@@ -21,6 +21,11 @@ introduce by simengphp :
 
 适用场景：数据库类文件
 
+
+
+
+
+
 二、工厂模式：  Factory.php
 
 特点：
@@ -48,6 +53,8 @@ introduce by simengphp :
 
 
 
+
+
 四、适配器模式：Match.php
 
 特点：
@@ -59,6 +66,9 @@ introduce by simengphp :
 适配器的理解：通用多个类文件
 
 适用场景：当一个项目中你需要连接多种的数据库，然后你可以使用这个设计模式，定义mysql,mysqli,pdo等几种方式
+
+
+
 
 
 五、策略模式：  Tactics.php
