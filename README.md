@@ -87,15 +87,25 @@ introduce by simengphp :
 
 
 class Page
+
 {
+
     protected $obj;
+
     public function index(){
+
         $this->obj->showGoods();
+
         $this->obj->showAdvert();
+
     }
+
     public function set($obj){
+
         $this->obj = $obj;
+
     }
+
 }
 
 $page = new Page();
@@ -117,6 +127,7 @@ if(isset($_GET['state'])){
     }
 
 }
+
 
 $page->index();
 
