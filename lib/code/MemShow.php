@@ -6,6 +6,7 @@
  * Date: 2017/11/9
  * Time: 13:39
  */
+namespace  lib\code;
 use  lib\code\Tactics\Tactics;
 class MemShow implements Tactics
 {

@@ -83,6 +83,32 @@ introduce by simengphp :
 
 使用场景：一个电商网站针对男女展示不同的商品和不同的广告位
 
+以下是code：
+
+class Page
+{
+    protected $obj;
+    public function index(){
+        $this->obj->showGoods();
+        $this->obj->showAdvert();
+    }
+    public function set($obj){
+        $this->obj = $obj;
+    }
+}
+$page = new Page();
+if(isset($_GET['state'])){
+
+    if($_GET['state'] == "man"){
+        $man = new \lib\code\ManShow();
+        $page->set($man);
+    }else{
+        $man = new \lib\code\MemShow();
+        $page->set($man);
+    }
+
+}
+$page->index();
 
 
 六、观察者模式：Observe.php
