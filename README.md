@@ -103,14 +103,21 @@ $page = new Page();
 if(isset($_GET['state'])){
 
     if($_GET['state'] == "man"){
+
         $man = new \lib\code\ManShow();
+
         $page->set($man);
+
     }else{
+
         $man = new \lib\code\MemShow();
+
         $page->set($man);
+
     }
 
 }
+
 $page->index();
 
 
