@@ -1,9 +1,10 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: Administrator
- * Date: 2017/11/8
- * Time: 21:37
+ * create by simengphp
+ * website www.simengphp.com
+ * QQ 476319748 (备注设计模式)
+ * Date: 2017/11/9
+ * Time: 11:38
  */
 namespace lib\code;
 class Factory
