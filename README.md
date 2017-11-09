@@ -85,6 +85,7 @@ introduce by simengphp :
 
 以下是code：
 
+
 class Page
 {
     protected $obj;
@@ -96,7 +97,9 @@ class Page
         $this->obj = $obj;
     }
 }
+
 $page = new Page();
+
 if(isset($_GET['state'])){
 
     if($_GET['state'] == "man"){
